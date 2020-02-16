@@ -22,6 +22,7 @@
 * Use float(“inf”) and float(“-inf”) for initializing a far bigger and smaller value 🙋.
 * The way python checks for emptiness/None/zero values is not obvious. For example, if not x: will evaluate to True for x being an empty list, None, 0, and some others. While this syntax is recommended, go with explicit syntax (e.g. x != 0:) if you are even slightly uncertain.
 * In usual cases, comparing two variables can be done in two ways: a == b or a is b. They serve different purposes (read up string interning for more), hence to avoid confusion, use a == b when comparing the values of variables. However, if x is not None is pretty acceptable way to check if a variable is set to None.
+* Assignment of multiple variables can be done in a one-liner fashion, such as max_len, i, j = 0, 0, 0.
 
 ## Reference
 * https://medium.com/@ratulsaha/preparing-for-programming-interview-as-a-phd-student-with-python-5f8af8b40d5f
